@@ -1,0 +1,119 @@
+﻿@CHARSET "UTF-8";
+
+body{
+	background-color: #edeef0;
+    color: #000;
+	margin-left:200px;
+	width: 960px;
+	margin: 15px 15px auto;
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	color: #6f6f6f;
+}
+
+
+h2{
+    background-color: #f7f7f7;
+}
+
+h1>a:hover, ol>li>a:hover {
+    color: #bf1622;
+}
+
+
+
+article.my {
+    width: 960px;
+    height: 500px;
+    background-color: #6f6f6f;
+    float: inherit;
+}
+.my>h1 {
+    width: 960px;
+    float: inherit;
+}
+.test{
+
+    padding: 5px;
+    width : 640px;
+    heigth: 100px;
+    background-color: #307eb1;
+    color : #6f6f6f;
+}
+
+div{
+    display: inline-flex;
+    width : 960px;
+    heigth: 500px;
+    background-color: #b4d8d9;
+    color : #6f6f6f;
+}
+
+div.cpp, .books, .linux, .java{
+    display: block;
+    width : 340px;
+    heigth: 300px;
+    background-color: #e4e8eb;
+    color : #99bde1;
+}
+
+
+
+article.winderton{
+    height: 250px;
+    width: 900px;
+}
+
+article.wind{
+    height: 200px;
+    width: 600px;
+    background-color: #2a9739;
+}
+article a:hover {
+    color: #bf1622;
+
+}
+
+article ul{
+
+    float: left;
+    color: #F7F7F7;
+    background-color: rgba(153, 189, 225, 0.85);
+
+}
+article li{
+    list-style-type: none;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    /*border-bottom-style: none;*/
+    color: #6f6f6f;
+
+}
+
+article:focus{
+    background: #ffe; /* Цвет фона */
+    border: 1px solid #29B0D9; /* Параметры рамки */
+}
+
+
+nav.dgnMenu {
+height: 220px;
+border: 5px solid #6f6f6f;
+}
+
+.dgnMenu ul {
+list-style: none;
+margin:  10px;
+padding: 3px;
+}
+
+.dgnMenu li {
+list-style: none;
+margin: 1px 0px 1px auto;
+padding:0px;
+}
+
+
+
