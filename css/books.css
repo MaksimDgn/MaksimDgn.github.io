@@ -1,0 +1,53 @@
+body{
+    width: 960px;
+    background-color: #F7F7F7;
+}
+
+h1, h2 {
+    width : 100%;
+    color: #edeef0;
+    background-color: #1f243f;
+}
+
+
+article.a {
+    font-size: 14px;
+    color: #000000;
+    background-color: #e4e8eb;
+}
+
+.test {
+    heigh :500px;
+    /*color : #6f6f6f;*/
+    color : #434343;
+    background-color: #3d6aa3;
+    /*background-color: #2a5885;*/
+}
+
+a{
+    color: #6f6f6f;
+}
+li, a{
+    color: #edeef0;
+
+}
+
+ul, li{
+    background-color: #6f6f6f;
+    text-decoration: none;
+    /*background-color: #2a5885;*/
+}
+
+nav.MenuL {
+    font-size: 12px;
+    float: right;
+    width:380px;
+    height: 300px;
+    /*color:#cecccc;*/
+    color: #edeef0;
+    background-color: #f7f7f7;
+    /*background-color: #edeef0;*/
+    border-bottom-color:silver;
+    margin: 10px;
+    border:solid;
+}

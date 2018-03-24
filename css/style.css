@@ -1,0 +1,181 @@
+﻿@CHARSET "UTF-8";
+
+body{
+    /*color: #f7f7f7;  #3B4043*/
+	background-color: #edeef0;
+	/*background-color: #ffffff;*/
+    color: #000;
+	margin-left:200px;
+	width: 960px; /*640px;*/
+	margin: 15рх auto;
+    /*margin: 9px;*/
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	color: purple;
+
+}
+
+header#page_header, Java, h1{
+    text-align:center;
+    float:left;
+    width: 960px;
+    background-color: #FFFFFF; /*e9e8e8;*/
+    color: #ff6a00;
+    margin: 0px 20px 20px 0px;
+}
+h2{
+    
+    border-bottom-style:dashed;
+    background-color: #f7f7f7;
+}
+
+div#one{
+    width:350px;
+     border-style:solid;
+     border:1px;
+     background-color:silver;
+     margin:5px;
+}
+
+div#to{
+    float:right;
+    width:350px;
+     border-style:solid;
+    background-color:silver;
+    margin:5px;     
+     border:3px;
+}
+
+div#vk{
+    padding: 0px 200px  0px;
+    width: 550px;
+    border: 3px;
+    color: #F7F7F7;
+    background-color: #6f6f6f;
+}
+
+div.hed {
+    width: 500px;
+    height: 300px;
+    background-color: #6f6f6f;
+}
+
+arcticle, h1 {
+    width: 500px;
+    float: inherit;
+
+}
+div.winderton{
+
+    padding: 5px;
+    width : 640px;
+    heigth: 440px;
+    background-color: #F7F7F7;
+    color : #6f6f6f;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    /*border-bottom-style: none;*/
+    color: #6f6f6f;
+
+}
+
+article:focus{
+    background: #ffe; /* Цвет фона */
+    border: 1px solid #29B0D9; /* Параметры рамки */
+}
+nav{
+   
+    float:left;
+    width:200px;
+    height: 300px;
+    color:#cecccc;
+    background-color: #f7f7f7;
+    border-bottom-color:silver;
+    margin:10px;
+    border:solid;
+}
+
+nav.navMenuR {
+   font-size: 12px;
+    float: right;
+    width:180px;
+    height: 300px;
+    color:#cecccc;
+    background-color: #f7f7f7;
+    border-bottom-color:silver;
+    margin: 10px;
+    border:solid;
+}
+
+nav.navMenuR li {
+margin: 0px;
+padding: 6px;
+}
+
+.navMenu li{
+margin: 0px;
+padding: 13px;
+
+}
+
+nav.dgnMenu {
+height: 210px;
+border: 5px solid #6f6f6f;
+}
+
+.dgnMenu ul {
+list-style: none;
+margin:  10px;
+padding: 3px;
+}
+
+.dgnMenu li {
+list-style: none;
+margin: 1px 0px 1px auto;
+padding:0px;
+}
+
+
+
+.wall_post_text { 
+    text-align: left;
+		padding: 10px;
+color: #1e74e9;
+background-color:#e8eeef;  /*#FF0000;*/
+font-style: italic; }
+.enter{ background-color: #ffff99;
+color: #2576fd; 
+width:350px;}
+
+p{
+    color: #0000FF/*СИНИЙ*/;/* #00FF00;*/
+    font-weight: bold;
+    margin: 5px 0 10px 0;
+    border-style: solid; border-width:0px; width:100%;
+    line-height: 15px; 		/*Атрибут стиля line-height задает высоту строки текста:
+							line-height: normal|<расстояние>|inherit*/
+/*letter-spacing: 5px;	Атрибут стиля letter-spacing позволяет задать дополнительное расстояние между символами текста:
+							letter-spacing: normal|<расстояние>*/
+}
+p#pJava{padding:200px; margin: 5px 0 20px 0; border-style: solid; border-width:1px; width:100%; color: #3B4043; background-color: #ff6a00 ;}
+p#cpp{ padding:200px; height:400px; margin: 5px 0 20px 0; border-style: solid; border-width:1px; width:150px; color: #3B4043; background-color: #ff6a00 ;}
+p#php{ padding:200px; height:400px; margin: 5px 0 20px 0; border-style: solid; border-width:1px; width:150px; color: #3B4043; background-color: #ff6a00 ;}
+p#Java{padding:200px; margin: 5px 0 20px 0; border-style: solid; border-width:1px; width:150px; color: #3B4043; background-color: #ff6a00 ;}
+
+p#main{
+		padding: 10px;
+background-color: #2576fd; margin: 5px 0 3px 0; border-style: solid; border-width:3px; width:130px; }
+
+
+
+EM { color: #ffff99;/* #ffff99; - желтый*/
+font-weight: bold } /*bold — полужирный шрифт.*/
+
+
+ #main {
+ 
+}

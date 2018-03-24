@@ -1,0 +1,63 @@
+body{
+    width: 1024px;
+    background-color: #000000;
+}
+
+h1 {
+    width : 100%;
+    color: #6f6f6f;
+}
+
+
+.test {
+    color : #62c189;
+    background-color: #434343;
+    /*background-color: #2a5885;*/
+}
+
+a {
+    color: #62c189;
+    text-decoration: none;
+}
+a:hover{
+
+    color: #f05772;
+
+}
+
+ul, li{
+       background-color: #6f6f6f;
+      text-decoration: none;
+      text-decoration-line: none;
+      opacity:50;
+      font-size: 18px;
+
+  }
+
+li {
+    display: block;
+}
+
+  nav.dgnMenu {
+     background-color: #f7f7f7;
+    text-align: center;
+    color: #d8dc0a;
+    border-bottom-color:silver;
+      /*  background-image: url("http://localhost/lang/o-THE-MATRIX-facebook.jpg");*/
+    }
+
+
+
+    nav.MenuL {
+        font-size: 12px;
+        float: right;
+        width:380px;
+        height: 720px;
+        /*color:#cecccc;*/
+    color: #edeef0;
+    background-color: #f7f7f7;
+    /*background-color: #edeef0;*/
+    border-bottom-color:silver;
+    margin: 10px;
+    border:solid;
+}
