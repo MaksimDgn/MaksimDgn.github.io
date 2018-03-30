@@ -5,7 +5,7 @@ body{
     color: #000;
 	margin-left:200px;
 	width: 960px;
-	margin: 15px 15px auto;
+	margin: 15px auto;
 	font-family: Arial, "MS Trebuchet", sans-serif;
 	color: #6f6f6f;
 }
@@ -15,7 +15,7 @@ h2{
     background-color: #f7f7f7;
 }
 
-h1>a:hover, ol>li>a:hover {
+h1>a:hover,h2>a:hover, ol>li>a:hover {
     color: #bf1622;
 }
 
