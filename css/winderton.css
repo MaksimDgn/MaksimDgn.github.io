@@ -48,7 +48,7 @@ div{
     color : #6f6f6f;
 }
 
-div.cpp, .books, .linux, .java{
+div.cpp, .books, .linux, .java, .emacs{
     display: block;
     width : 340px;
     heigth: 300px;
