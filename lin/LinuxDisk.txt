@@ -1,0 +1,37 @@
+программы для работы с диском
+
+fdisk   разбиение диска на разделы?
+fdisk -l /dev/sda
+fdisk -l устройства которые подключены
+mount 	 примонтированные устройства
+
+монтирование одного католога в другой https://youtu.be/su-eurpolKk?t=1h18m25s
+
+df -h	информация о файловой системе
+
+
+cfdisk - display ur manipulate a disk partition table
+mkfs - build a Linux filesystem
+partx - tell the kernel about the presence and nambering of on-disk partitions
+sfdisk - display or manipulate a disk partition table
+
+
+Установка загрузчика (MBR)
+grub -install --target=i386-pc --recheck /dev/sda
+     конфигурация загрузчика
+grub-mkconfig -o /boot/grub/grub.cfg
+exit
+umount /mnt
+sync
+reboot
+
+
+монтирование одного католога в другой https://youtu.be/su-eurpolKk?t=1h18m25s
+
+Структура каталогов: FHS
+FHS - описывает какие каталоги и структуру
+
+файл позволяет опознать какой это дистрибутив Linux
+cat etc/lsb-relese
+
+Without this option, the file system is opened in read-only mode.
