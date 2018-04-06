@@ -35,3 +35,72 @@ FHS - описывает какие каталоги и структуру
 cat etc/lsb-relese
 
 Without this option, the file system is opened in read-only mode.
+
+
+
+Как восстановить раздел жесткого диска
+https://youtu.be/-EoqI3zC6JI
+
+fdisk -l /dev/sda
+сделать копию таблицы разделав
+dd if=/dev/sda of=sda.bak count=1
+
+востановить раздл
+dd if-sda.bak of=/dev/sda count=1
+
+шестнадцатиричное представление бинарного файла
+hexdump -C sda.bak
+
+sfdisk - сохраняет таблицу разделов в текстовом виде
+sfdisk --dump /dev/sda | tee sda.dump
+
+sfdisk --help|less
+сохранить резервные копии секторов
+sfdisk -O sfdisk.bak /dev/sda < sda.dump
+--force принудительная запись новых разделов таблици
+
+testdisk
+
+
+
+
+015. Файловые системы - Виктор Ашик
+https://youtu.be/TZ3nA47BW0M?t=41m46s
+
+tune2fs
+tune2fs -i 0 /dev/sda8
+
+
+
+
+014. Запускаем Linux: как изучать системы - Виктор Ашик
+chroot
+https://youtu.be/EZNj3mKUqrA?t=48m
+arch-chroot /mnt /bin/bash
+
+pacman -S grub
+
+
+Создать конфигурацыонный файл и записать на жесткий диск
+grub-install --targer=i386-pc --recheck /dev/sda
+
+конфиг:
+grub-mkconfig -o /boot/grub/grub.cfg
+
+exit
+
+umount /mnt
+
+sync
+sync
+sync
+
+reboot
+
+информация о жестком диске
+df -h
+
+Full HD 1080p
+Три Икса
+
+ Джуманджи: Зов джунглей. 2017
