@@ -1,6 +1,7 @@
 программы для работы с диском
 
 fdisk   разбиение диска на разделы?
+sfdisk  тоже самое что и fdisk, современная версия(не интерактивна)
 fdisk -l /dev/sda
 fdisk -l устройства которые подключены
 mount 	 примонтированные устройства
@@ -26,6 +27,8 @@ sync
 reboot
 
 
+
+КИТ 1.5 Файловые системы
 монтирование одного католога в другой https://youtu.be/su-eurpolKk?t=1h18m25s
 
 Структура каталогов: FHS
@@ -62,16 +65,40 @@ sfdisk -O sfdisk.bak /dev/sda < sda.dump
 testdisk
 
 
-
+and not siotable fot any uses other than bench-marking and review.
 
 015. Файловые системы - Виктор Ашик
 https://youtu.be/TZ3nA47BW0M?t=41m46s
 
 tune2fs
+https://youtu.be/TZ3nA47BW0M?t=38m5s
 tune2fs -i 0 /dev/sda8
 
+tar - https://youtu.be/TZ3nA47BW0M?t=51m59s
+
+Ctrl+k  - кольцо удаления
+Ctrl+y, Alt+y  - вставка
+найти убитую строку (man readline, (yangking))
+https://youtu.be/TZ3nA47BW0M?t=56m
+
+задается жесткая ссылка
+ln /boot/test.tmp /boot/test1.tmp
+просмотреть индексный дескриптор
+stat /boot/test1.tmp
+показать номера индексных дескрипторов
+https://youtu.be/TZ3nA47BW0M?t=1h2m11s
+ls -i /boot/test1*
+
+debugfs
+https://youtu.be/TZ3nA47BW0M?t=1h2m41s
+
+файл позволяет опознать какой это дистрибутив Linux
+cat etc/lsb-relese
 
 
+
+
+Установка ArchLinux
 
 014. Запускаем Linux: как изучать системы - Виктор Ашик
 chroot
