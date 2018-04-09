@@ -49,18 +49,23 @@ fdisk -l /dev/sda
 dd if=/dev/sda of=sda.bak count=1
 
 востановить раздл
-dd if-sda.bak of=/dev/sda count=1
+dd if=sda.bak of=/dev/sda count=1
 
 шестнадцатиричное представление бинарного файла
 hexdump -C sda.bak
 
 sfdisk - сохраняет таблицу разделов в текстовом виде
-sfdisk --dump /dev/sda | tee sda.dump
+sfdisk --dump /dev/sda | tee sda.dump    просмотр
 
-sfdisk --help|less
+sfdisk --help|less  помощь
+
 сохранить резервные копии секторов
-sfdisk -O sfdisk.bak /dev/sda < sda.dump
+sfdisk -O sfdisk.bak /dev/sda < sda.dump --force
 --force принудительная запись новых разделов таблици
+
+востановить
+sfdisk -I sfdisk.bak /dev/sda < sda.dump
+
 
 testdisk
 
