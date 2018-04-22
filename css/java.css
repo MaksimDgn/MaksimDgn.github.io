@@ -53,7 +53,9 @@ li {
         font-size: 12px;
         float: right;
         width:380px;
-        height: 720px;
+        /*height: 720px;*/
+        height: 100%;
+
         /*color:#cecccc;*/
     color: #edeef0;
     background-color: #f7f7f7;
