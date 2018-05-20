@@ -1,0 +1,13 @@
+Xorg - window manager
+xfce » xfwm4 - window manager
+
+GNOME display manager.
+
+
+
+поставил драйвера xfwm4:
+pacman -S xf86-video-nouveau
+
+Running
+
+Display manager

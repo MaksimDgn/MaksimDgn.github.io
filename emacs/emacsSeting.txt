@@ -1,0 +1,29 @@
+настройки сохраняются в файл .emacs
+
+поменять тему
+customize-themes
+
+// тема
+(load-theme 'leuven)
+// подгрузить тему
+M-x eval-buffer
+
+(menu-bar-mode -1) - убрать меню
+(tool-bar-mode -1) - убрать кнопки
+(scroll-bar-mode -1) - уменьшить прокрутку
+чтобы все вернуть надо убрать "-"
+
+(set-default 'cursor-type 'hbar) - сделать курсор
+(column-number-mode) - показывать столбец
+(fset 'yes-or-no-p 'y-or-n-p) - укарачевает подтверждение до одной буквы
+(ido-mode) - предлогает варианты при открытии файла
+
+(provide 'init)
+
+in file: .emacs
+(add-to-list 'load-path(expand-file-name "~/etc/emacs"))
+(require 'init)
+
+
+dariaemacs$ mkdir etc/emacs/
+init.el - хранятся настройки emacs
