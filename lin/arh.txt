@@ -11,3 +11,11 @@ pacman -S xf86-video-nouveau
 Running
 
 Display manager
+
+
+timedatectl status
+sudo hwclock --systohc
+sudo emacs /etc/ntp.conf
+
+https://wiki.archlinux.org/index.php/Installation_guide#Time_zone
+https://wiki.archlinux.org/index.php/Time#Time_standard
