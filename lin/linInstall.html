@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Linux Install</title>
-    <link href="../css/linux.css" rel="stylesheet" type="text/css" />
+    <link href="../css/linux_test.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div>
-    <div class="linux" tabindex="4">
+    <div class="linux" tabindex="1">
         <h1><a href="https://linuxmint.com/download.php">Linux mint</a></h1>
         <ul>
             <li><a href="https://www.youtube.com/watch?v=40VxkZ9aoL0&list=PLfUb8Th_cuyJpJuHpsGSuyPbblt1CVX0k&index=47">Linux Mint Cinnamon 18.2 Установка и настройка от Алексея</a></li>
@@ -16,7 +16,7 @@
     </div>
 
 
-    <div class="linux" tabindex="4">
+    <div class="linux" tabindex="2">
 
         <h1><a href="https://wiki.archlinux.org/index.php/Installation_guide">archlinux Installation guide</a></h1>
 
@@ -24,8 +24,94 @@
 
         <ul>
             <li><a href="https://www.youtube.com/watch?v=40VxkZ9aoL0&list=PLfUb8Th_cuyJpJuHpsGSuyPbblt1CVX0k&index=47">Linux Mint Cinnamon 18.2 Установка и настройка от Алексея</a></li>
+                <ul>
+                    <li><a href="https://youtu.be/40VxkZ9aoL0?t=3859">установка Conky Manager (Установка и настройка от Алексея)</a></li>
+                </ul>
             <li><a href="https://www.youtube.com/watch?v=AY4wBMK5jkQ&feature=em-uploademail">Linux Mint 18.3 Cinnamon - влог об опыте использования.</a></li>
         </ul>
+    </div>
+    <br>
+    <br>
+
+    <div>
+        <h1>Моя установка Arch</h1>
+            <h2>Xfxe4</h2>
+        xorg-server
+                <h3>Установка видео</h3>
+                    поиск видеодрайвера: pacman -Ss xf86-video <br>
+                    NVIDIA: xf86-video-nouveau <br><br>
+
+                    <h3>Сгенерировать скелет кофига xorg</h3>
+                        Xorg :0 -configure <br>
+                        установить xf86-video-dummy : конфигурирование монитора <br>
+                    <h3>Установка xfce4</h3>
+                        пакет xfce4 xfce4-goodies
+
+        <br><br><br>
+                    <h3>установить sudo</h3>
+                    <h3>Уствновка и настройка Audio</h3>
+                    <h3>samba</h3>
+        <h3>soft</h3>
+        <a href="https://youtu.be/Gz-UNzVkPfY">Manjaro Linux польза связки Guake+mc</a><br>
+        Команды установки: <br>
+        Manjaro: <br>
+        sudo pacman -S guake mc <br>
+        Ubuntu/Mint: v
+        sudo apt install guake mc <br><br><br>
+
+
+    </div>
+    <br>
+    <br>
+    <h1>Jon Jonson</h1>
+    <a href="https://youtu.be/Vj9GhEvWCWI">Установка Arch Linux + EFI (stub) + LVM + LUKS (шифрование)</a>
+    <a href="https://youtu.be/jF_24AUqyKU">Установка Arch Linux на зашифрованный раздел - Johe News</a>
+    <h2><a href="https://youtu.be/0Cn6rhEh_5A">Установка Arch Linux + XFCE4(archInstall.txt)</a></h2>
+    <div class="linux" tabindex="3">
+        <h3>Добавление пользователя</h3>
+        <div>
+            useradd -m -g users -G audio,games,lp,optical,storage,video,wheel -s /bin/bash auser2
+            <br>
+            установить пароль пользователя:
+            <br>
+            passwd auser2
+
+            <h3><a href="https://youtu.be/0Cn6rhEh_5A?t=3220">XFCE4</a></h3>
+            если устанавливаем на виртуалбоксе то для него ставим пакеты: <br>
+            <a href="https://youtu.be/0Cn6rhEh_5A?t=3454">ставим xfce</a> <br>
+            sudo pacman -S xorg-server xorg-xinit xorg-server-utils mesa
+            <h3><a href="https://youtu.be/0Cn6rhEh_5A?t=3483">drivers</a></h3>
+            <h3><a href="https://youtu.be/0Cn6rhEh_5A?t=3591">окружение рабчего стола</a></h3>
+            sudo pacman -S xfce4 xfce4-goodis sddm
+            sudo systemctl reboot <br>
+            запуск окна логина и рабочего стола <br>
+
+            sudo systemctl start sddm.service <br>
+
+            добавить в автозагрузку <br>
+
+            sudo systemctl enable sddm.service
+
+
+        </div>
+
+        <h1>Пакеты</h1>
+        <div><h2>console-setup(1.178ubuntu2.8)</h2>
+            Этот пакет позволяет настраивать клавиатуру для консоли Linux по такой же
+            схеме, как и в X Window. В результате не нужно дублировать или изменять
+            файлы клавиатуры для того, чтобы задействовать неиспользуемые «мёртвые»
+            клавиши, действия для клавиш AltGr или Compose, клавишу(ы) для
+            передключения между латинским и нелатинским режимом и т.д.
+            .
+            Этот пакет также устанавливает консольные шрифты для многих языков мира.
+            Он предоставляет унифицированный набор шрифтовых начертаний -- классический
+            VGA, упрощённый Fixed и читабельные Terminus, TerminusBold и
+            TerminusBoldVGA.
+
+
+
+            В это обновление включены пакеты: console-setup console-setup-linux keyboard-configuration
+        </div>
     </div>
 </div>
 </body>

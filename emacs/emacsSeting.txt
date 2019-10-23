@@ -27,3 +27,37 @@ in file: .emacs
 
 dariaemacs$ mkdir etc/emacs/
 init.el - хранятся настройки emacs
+
+
+
+emacs -g			;; запустить без файла конфигурации
+emacs --debug-init		;; запустить с дебагером конфига
+
+
+//как в емаксе сразу во всех подпапках внутри файлов одну подстроку на другую заменять?
+M-! find -type f -exec sed -i 's/было/стало/g' {} +
+
+// Shell
+// find -type f -exec sed -i 's/было/стало/g' {} +
+
+
+
+// https://www.youtube.com/watch?v=0kuCeS-mfyc
+// M-x package-list-packages 		   вывеслти лист устанонавливаемых модулей
+
+// .Emacs #3 - Installing Packages and Extensions
+//
+// list-pakcages	список пакетов для установки
+//https://www.youtube.com/watch?v=Cf6tRBPbWKs
+//
+
+
+	Basic Emacs Tutorial
+// Basic Emacs Tutorial
+// https://youtu.be/hbmV1bnQ-i0?t=1670
+
+	Emacs Tutorial (Beginners) -Part 1- File commands, cut/copy/paste, cursor commands
+// https://youtu.be/ujODL7MD04Q?t=128
+
+
+Linux_Rukovodstvo_programmista.pdf

@@ -19,3 +19,7 @@ sudo emacs /etc/ntp.conf
 
 https://wiki.archlinux.org/index.php/Installation_guide#Time_zone
 https://wiki.archlinux.org/index.php/Time#Time_standard
+
+
+youtube-dl 2018.11.03-1 - A small command-line program to download videos from YouTube.com and a few more sites
+Небольшая программа командной строки для загрузки видео с YouTube.com и еще несколько сайтов

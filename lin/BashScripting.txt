@@ -1,0 +1,84 @@
+tutoriaLinux
+Bash Scripting 1 - Why Write Bash Scripts?
+https://youtu.be/xtS2NiABf54
+
+
+Bash Scripting 2 -- Bash Basics
+https://youtu.be/4-hw6DPBlsw
+
+cat testfile | wc -l
+(cat testfile | wc -l)
+(cat testfile | wc -l) && echo "Done!"
+&& : и
+|| : или
+somecommand 2> error_log
+
+
+
+Bash Scripting 3 -- Variables and Quoting(Переменные и цитирование)
+https://youtu.be/MYWvVgIL_Ys
+
+echo $varname
+echo $HOME
+
+myvar="This is so wonderful"
+echo $myvar
+
+some_number=10
+echo "This is ${some_number}th beer."
+      This is 10th beer.
+
+echo "there are X of line in the /etc/shadow file"
+wc -l < /etc/group
+echo "there are `wc -l < /etc/group` of line in the /etc/shadow file"
+
+num_lines=`ls $HOME | wc -l`
+echo $num_lines
+
+
+
+Bash Scripting 4 -- How Bash Scripts Work
+https://youtu.be/U2_MvxnqLRE
+
+helloworld.sh
+#!/bin/bash
+
+message="Hello World!"
+# this is a comment
+echo $message
+
+exit $?
+
+chmod +x helloworld.sh
+./helloworld.sh
+
+
+
+Bash Scripting 5 -- Arguments
+https://youtu.be/Vbu8rfVaABw
+
+arguments.sh
+#!/bin/bash
+
+## Arguments reference:
+# $# --> number of args that our script was run with
+# $0 --> the filename of our script
+# $1..$n --> script arguments
+
+# wha's our filename?
+ourfilename=$0
+echo $ourfilename
+
+# how many arguments was the script called with?
+num_arguments=$#
+
+# what were the arguments?
+echo "The first three arguments were ${1}, ${2}, and ${3}"
+echo $5
+
+
+
+Bash Scripting 6 -- 'If' and Testing
+https://youtu.be/VMZBFjYgjR4
+
+

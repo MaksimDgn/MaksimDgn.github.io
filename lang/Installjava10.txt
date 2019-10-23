@@ -1,0 +1,29 @@
+Java SE 10.0.1
+https://java9.ru/?p=581
+Как установить Java 9 (JDK 9, JRE 9) в Linux
+https://java9.ru/?p=487
+
+
+Для установки JDK последовательно выполните следующие команды:
+
+sudo su -
+mkdir -p /opt/java && cd /opt/java
+
+curl -s http://www.oracle.com/`curl -s http://www.oracle.com/technetwork/java/javase/downloads/index.html | grep -o -E '/technetwork/java/javase/downloads/jdk10-downloads-[0-9]{1,10}.html' | head -n 1` | grep -o -E 'http://download.oracle.com/otn-pub/java/jdk/[a-z0-9.+_/-]{4,}linux-x64_bin.tar.gz' | tail -n 1  > temp; wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "`cat temp`"; rm temp
+
+
+tar -zxvf jdk-*.tar.gz && rm *.tar.gz && mv jdk* jdk-10
+
+cd jdk-10
+update-alternatives --install /usr/bin/java java /opt/java/jdk-10/bin/java 100
+update-alternatives --config java
+
+Рекомендуется выбрать /etc/profile, поскольку в этом случае настройки будут доступны для всех пользователей системы. Откройте этот файл:
+
+gedit /etc/profile
+
+
+Настройка переменных окружения Java.
+export JAVA_HOME=/opt/java/jdk-10/
+export JRE_HOME=/opt/java/jdk-10/jre
+export PATH=$PATH:/opt/java/jdk-10/bin:/opt/java/jdk-10/jre/bin

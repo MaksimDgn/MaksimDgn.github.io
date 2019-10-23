@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Emacs</title>
+    <link href="../css/books.css" rel="stylesheet" type="text/css"/>
+    <script src="../ext-all.js"></script>
+
+</head>
+<body>
+
+
+<header>
+    <nav class="menu">
+        <ul>
+            <div class="menu_div">
+            <!--<div class="list"><a href="http://maksimdgn.github.io/main/"> - Main page -     </a></div>-->
+            <div class="list"><a href="https://maksimdgn.github.io/"> github.io   </a></div>
+            <div class="list"><a href="http://maksimdgn.github.io/lang/java.html">Java      </a></div>
+            <div class="list"><a href="http://maksimdgn.github.io/lang/cpp.html">C++        </a></div>
+            <div class="list"><a href="http://maksimdgn.github.io/lin/linux.html">Linux     </a></div>
+            <div class="list"><a href="http://maksimdgn.github.io/books/books.html">Books   </a></div>
+            </div>
+            <!--<li><a href="http://maksimdgn.github.io/main/"> - Main page - </a></li>-->
+            <!--<li><a href="https://maksimdgn.github.io/"> maksimdgn.github.io </a></li>-->
+            <!--<li><a href="http://maksimdgn.github.io/lang/java.html">Java</a></li>-->
+            <!--<li><a href="http://maksimdgn.github.io/lang/cpp.html">C++</a></li>-->
+            <!--<li><a href="http://maksimdgn.github.io/lin/linux.html">Linux</a></li>-->
+            <!--<li><a href="http://maksimdgn.github.io/books/books.html">Books</a></li>-->
+
+        </ul>
+    </nav>
+
+</header>
+
+<nav class="menu">
+    <div class="menu_div">
+    <div class="list"><a href="./emacs.html#emacs">Emacs</a> </div>
+    <div class="list"><a href="./emacs.html#vim">Vim</a> </div>
+    <div class="list"><a href="./emacs.html#nano">Nano</a> </div>
+    </div>
+</nav>
+
+<h1><a href="https://youtu.be/dljNabciEGg?t=195">Literate Devops with Emacs</a></h1>
+<div class="book_titel">
+    <h1>Header</h1>
+    <ul>
+        <li>111</li>
+        <li>222</li>
+        <li>333</li>
+        <li>444</li>
+        <li>555</li>
+    </ul></div>
+<h1><a href="https://www.youtube.com/watch?v=Dpfij8Y_q10&t=13s">Emacs для начинающих. Мои shortcuts/ For beginners. My shortcuts</a></h1>
+<h1><a href="https://youtu.be/dljNabciEGg?t=195">Literate Devops with Emacs</a></h1>
+<h1>Header</h1>
+
+
+<article class="a">
+    <div class="book_title">
+        <h1><a href="https://www.youtube.com/watch?v=Dpfij8Y_q10&t=13s">Emacs для начинающих. Мои shortcuts/ For beginners. My shortcuts</a></h1>
+        <ul>
+        <li>Нужные команды, которые не поместились:</li>
+        <li>C-x C-f - открыть файл</li>
+        <li>С-s - поиск по файлу</li>
+        <li>С-v - на экран вперед</li>
+        <li>M-v - на экран назад</li>
+        <li>C-x C-s - сохранить файл</li>
+        <li>M-x - начать вводить команду, например, query-replace-regexp</li>
+        <li>TAB - активно используется для дополнения названия файлов или команд</li>
+        <li>С-x 0 - удалить текущее окно</li>
+        <li>C-x 1 - удалить все окна, кроме текущего</li>
+        <li>S-F3 - включить внутренний счетчик, помогает вести длинную нумерацию</li>
+        <li>C-RET - в режиме CUA поставить метку для начала выделения прямоугольника</li>
+        <li>Esc Esc Esc - выход из любого тупика в емакс</li>
+        <li>C-x C-c - выход из emacs</li>
+        <h2>из книгаи Ричарда Столмена</h2>
+	<li>Глава 1: Организация экрана стр 25</li>
+	<li>Глава 2: Знаки, ключи и команды</li>
+	<li>Глава 3: Вход и выход из Emacs</li>
+	<li>Глава 4: Основные команды редактирования</li>
+	
+	
+	<li>Глава 5: миниБуфур стр45</li>
+	
+		        <li>Глава 2: Организация экрана</li>
+        <li>7.3 Поиск по контексту стр 57</li>
+        <li>12.3 Поиск и замена стр87</li>
+
+	<li>Глава 15: Буфуры с. 135</li>
+	<h2>www.opennet.ru</h2>
+        <li><a href="https://www.opennet.ru/docs/RUS/gnuemacs/emacs_17.html#SEC89">Поиск и замена</a></li>
+    </ul>
+
+
+        Изучаем С++ через программирование игр<br>
+        Автор Майкл Доусон
+    </div>
+
+</article>
+
+<h1><a href="https://www.emacswiki.org/">www.emacswiki.org</a> </h1>
+<h1><a href="https://www.emacswiki.org/emacs/ЕмаксДляНовичков">ЕмаксДляНовичков</a></h1>
+<h1><a href="http://alexott.net/ru/emacs/TUTORIAL.ru">TUTORIAL.ru</a></h1>
+<h1><a href="https://youtu.be/r_HW0EB67eY">Emacs for C++</a></h1>
+
+
+    <div class="book_body">
+        <ul>
+            <li><a href="https://youtu.be/r_HW0EB67eY"> 1 Emacs for C++</a></li>
+            <li><a href="https://cestlaz.github.io/stories/emacs/">Using Emacs Series</a></li>
+
+        </ul>
+
+    </div>
+
+    <div class="book_body">
+        <ul>
+            <li><a href="">li</a></li>
+            <li></li>
+        </ul>
+        <a href="">1 href</a>
+    </div>
+
+    <div class="book_body">
+2
+    </div>
+
+
+
+<a id="vim"></a>
+<h1>Vim</h1>
+    <div class="book_body">
+
+        <ul>
+            <li><a href="https://youtu.be/BeB5iN9ztL0"> Использование Vim. Часть 1</a></li>
+            <li><a href="https://youtu.be/R9aJYGH5qyo"> Использование Vim. Часть 2</a></li>
+                <h2>Веб-стандарты</h2>
+                    <li><a href="https://youtu.be/Lgv_jThBvso">  Всё, что вы делаете в Vim неправильно</a></li>
+        </ul>
+    </div>
+
+
+<a id="nano"></a>
+<h1>Nano</h1>
+    <div class="book_body">
+
+        <ul>
+            <li>Выход Ctrl+X</li>
+            <li>Поиск Ctrl+W, повторный поиск m+W</li>
+            <li>Сохранить Ctrl+o</li>
+            <h2>Сайты</h2>
+            <li><a href="https://help.ubuntu.ru/wiki/nano">nano - текстовый редактор</a></li>
+            <li><a href="https://losst.ru/tekstovyj-redaktor-nano-v-linux-dlya-novichkov">Текстовый редактор Nano в Linux для новичков</a></li>
+
+                <h2>Веб-стандарты</h2>
+                    <li><a href="https://youtu.be/Lgv_jThBvso">  Всё, что вы делаете в Vim неправильно</a></li>
+        </ul>
+    </div>
+
+
+</body>
+</html>
