@@ -319,6 +319,54 @@
                     <li><a href="https://youtu.be/8CQ7ods0PeY?t=1h36m43s">gcc -Wall -g mymkdir.c</a></li>
                     <li>./a.out</li>
                     <li>1:37:40 - <a href="https://youtu.be/8CQ7ods0PeY?t=5859">Управление доступом</a></li>
+		    <div>
+<a herf=""sa   da b sss
+  <br>
+    Управление файлами/каталогами (man 2 mkdir)<br>
+    creat/mknod<br>
+    open/close<br>
+  //    read/write можно использовать для сокетов чтобы принимать и отправлять данные<br>
+  //    mkdir/rdir<br>
+  //    lsek  позиционирование в файлах<br>
+  //    fcntl файлконтрол - управлять файлами<br>
+  //    chdir поминять текущую директорию<br>
+  //    unlik удаление файла<br>
+  //<br><br>
+    <div>
+  char* pathdir = "testdir";<br>
+  //  mkdir(pathdir, 0777);<br>
+  mkdir(pathdir, 0770); // все права для владельца, группы и не каких для остальных<br>
+    printf("Dir %s is done.", pathdir);<br>
+</div><br>
+    //<br>
+    // Управление доступом https://youtu.be/8CQ7ods0PeY?t=5830
+    //
+    // stst/lstat  получить информацию о катологе/ ссылки
+    // chown/lchown менять владельца файла/ссылки
+    // chmod        
+    // getreuid 
+    // setreuid
+
+    
+    //
+    // Передача данных https://youtu.be/8CQ7ods0PeY?t=6013
+    // man socket
+    // socket
+    // connect
+    // send/sendto/sendmsg
+    // sendfile
+    // recv/recvfrom
+
+    // Остальное https://youtu.be/8CQ7ods0PeY?t=6229
+    // brk  
+    // mmap/munmap выделять память
+    // pause
+    // gettimeofday 
+    // ioctl  работает с драйверами устройств
+    // sync   сбросить данный из буфера(man 2 sync)
+
+   
+		    </div>
                 </ol>
             </ol>
         </div>
