@@ -2,12 +2,13 @@
 
 body{
 	background-color: #edeef0;
-    color: #000;
+
 	margin-left:200px;
 	width: 960px;
 	margin: 15px auto;
 	font-family: Arial, "MS Trebuchet", sans-serif;
 	color: #6f6f6f;
+	
 }
 
 
@@ -40,7 +41,7 @@ article.my {
     color : #6f6f6f;
 }
 
-div.main{
+div{
     display: inline-flex;
     width : 960px;
     heigth: 500px;
@@ -54,20 +55,6 @@ div.cpp, .books, .linux, .java, .emacs, .git, .droid{
     heigth: 300px;
     background-color: #e4e8eb;
     color : #99bde1;
-}
-
-div.main_docker {
-    
-    width : 500px;
-    heigth : 600px;
-    backgraund-color: #999;
-}
-
-div.docker {
-    
-    width : 600px;
-    heigth : 100%;
-    backgraund-color: #000;
 }
 
 div.droid{

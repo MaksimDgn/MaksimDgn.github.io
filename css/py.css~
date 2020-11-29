@@ -1,0 +1,7 @@
+
+div.ex{
+    margin : 10px;
+    pading: 10px;
+    border: 1px solid #bbccdd;
+    background-color: #ebf1f5;
+}

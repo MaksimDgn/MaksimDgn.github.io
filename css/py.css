@@ -1,0 +1,35 @@
+body{
+    width: 960px;
+    background-color: #F7F7F7;
+    margin: 15px  auto;
+}
+
+div.ex{
+    margin : 10px;
+    pading: 10px;
+    border: 1px solid #bbccdd;
+    background-color: #ebf1f5;
+}
+
+.main_menu {
+    margin: 0;
+    pading: 5;
+    color: aqua;
+    /* Background-color: silver; */
+}
+
+.all-set {
+    display: flex-grow;
+}
+.all2-set {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap : 20px;
+    padding: 20px;
+    background-clor: silver;
+}
+
+.all_chaild {
+    padding: 5px, 20px;
+    backgroud-color: whitesmoke;
+}

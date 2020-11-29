@@ -1,0 +1,136 @@
+/*ot books.css */
+
+
+body{
+    text-align: center;
+    min-width: 650px;
+    /* width: 960px; */
+    background-color: #F7F7F7;
+    margin: 15px  auto;
+}
+
+
+
+
+div.list {
+
+    width: 100%;
+    display: block;
+}
+
+nav.menu>ul {
+
+    margin: 5px;
+    color: #edeef0;
+    background-color: #e4e8eb;
+
+    /*background-color: #6f6f6f;*/
+    font-size: 28px;
+    list-style: none;
+}
+
+.menu_div {
+    display: inline-flex;
+    /* width: 100%; */
+    width: 960px;
+    height: 40px;
+}
+.list {
+    height: 35px;
+    background-color: #F7F7F7;
+        /* background-color: #e4e8eb; */
+}
+
+h1, h2, h1>a, h2>a {
+    width : 100%;
+    /* color: #edeef0; */
+    color: #959999;
+    background-color: #222;
+}
+
+
+.a {
+    font-size: 14px;
+    color: #000000;
+    /*color: #209b3e;*/
+    background-color: #e4e8eb;
+}
+.book_body .a:hover {
+    min-width: 650px;
+    font-size: 12px;
+    color: #bec4c8;
+    text-align: center;
+}
+
+code {
+    font: 1.2em monospace;
+    background: 
+    #ffd;
+    padding: .15em .25em;
+}
+
+body>div {
+    
+  min-width: 650px;
+  height: 309px;
+  background: #e4e8eb;
+  -webkit-transition: all 0.3s ease;;
+  -moz-transition: all 0.3s ease;;
+  -o-transition: all 0.3s ease;;
+  transition: all 0.3s ease;
+}
+.article-content {
+    width: 100%;
+    display: block;
+    
+}
+.grow:hover, .list:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.test {
+    heigh :500px;
+    /*color : #6f6f6f;*/
+    color : #434343;
+    background-color: #3d6aa3;
+    /*background-color: #2a5885;*/
+}
+
+
+
+.book_body, a {
+    
+    /*color: #e4e8eb;*/
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #e4e8eb;
+    
+}
+
+
+
+h1>a:hover,h2>a:hover, ol>li>a:hover {
+    /* color: #bf1622; - красный */
+    color: #fff;
+}
+
+a.info:hover {
+    color: #000;
+    /* background-color: #bec4c8; */
+     font-size: 15px;
+}
+
+div.list:hover {
+    
+    /* color: #605b5b; */
+        color: #959999;
+    /* background-color: #bec4c8; */
+     font-size: 18px;
+}
+
+
+
+

@@ -106,6 +106,11 @@
                 <!--<div class="linux" tabindex="4">-->
                 <a id="net"></a>
                 <h1> <a href="https://www.youtube.com/channel/UCkufieG4LoGkHNOGrgMx3Vg"> Системное администрирование</a> </h1>
+		<h3><a href="https://youtu.be/EZNj3mKUqrA">014. Запускаем Linux: как изучать системы - Виктор Ашик</a></h3>
+		<p class="os">
+		  <h4><a href="https://youtu.be/EZNj3mKUqrA?t=629">Системы для восходящего подхода</a></h4>
+		  Gentoo<br>Linux From Scratch http://linuxfromscratch.org/ <br> ArchLinux <br>Минимальная установка любой системы <br>
+		  </p>
                     <BR>
                     <ol>
                         <li><a href="../lin/linInstall.html"> Install Linux </a></li>
@@ -130,8 +135,18 @@
 
 
                 <div class="linux" tabindex="4">
-                <h1>Сети</h1></a><BR>
+                  <h1>Net(Сети)</h1></a><BR>
+<div>
+  <h3><a href="https://www.youtube.com/watch?v=oanbIqkS9LM">23. Веб-сервер на Ubuntu с нуля: nginx, HTTP/2, brotli и HTTPS</a></h3>
+<p>
 
+
+выдать права дириктории пользователя и группы<br>
+sudo chown -R $USER:$USER [dir]
+<br>
+ <a href="https://youtu.be/oanbIqkS9LM?t=1512">25:12 - создание сайта nginx</a>
+</p>
+</div>
 
                     <div>
                       <h3><a href="https://youtu.be/LTZ8BVGRhH0">7 Сети и протоколы - Виктор Ашик</a></h3>
@@ -378,12 +393,63 @@
 </div>
 
 
+
+
+
+
+
+
 <a id="shell"></a>
+
+<h1> Bash</h1>
 <article class="a">
-    <div class="book_title">
-<!--<div class="linux" tabindex="8">-->
-    <H1><a href="http://localhost/lin/linux.html">Командная строка Unix</a></H1>
-        <H2><a href="./linux.html#shell">locale - Командная строка Unix</a></H2>
+<H2><a href="http://localhost/lin/linux.html">Командная строка Unix</a> <a href="./linux.html#shell">locale</a> </H2>
+<div class="ex"><h3>найти все файлы nfo на компьютере</h3>
+  sudo find ~/ -name nfo<br>
+  sudo find ~/ -name '*nfo*'<br>
+  grep txt nfo2.log<br>
+  grep '/nfo' nfo2.log<br>
+  <br>
+  sudo find ~/ -name '*nfo.txt' > nfo3.log<br>
+  <br>
+  <br>
+  <h3>поиск через grep </h3>
+  поиск PATH - https://youtu.be/woiTJWE3YZ4?t=2339<br>
+  grep PATH .bash* .profile (example)<br>
+  grep bash /etc/profile  (mint)<br>
+  поиск через grep и вывод на экран через more/less - https://youtu.be/woiTJWE3YZ4?t=2945<br>
+  find ../ -name '*.txt' | grep vim<br>
+  find ~/ -iname '\*.txt' | grep -r vim . | more<br>
+  <br>
+  Ctrl+U - вырезать в буфер обмена<br>
+</div>
+</article>
+
+    <article class="a">
+      <div class="ex"><h3>Sed и awk</h3>
+
+	# исключает вывод строк содержащий в начале коментарий<br>
+	sed /^#/d ~/progects/py_prj/pars/klavogonki/main.py<br><br><br>
+
+	-e :<a hreff="https://youtu.be/81r8sD6yDJo?list=PLdJo1XilUTZNDMQEOObDI3S4LSpYTVMFQ&t=293"> указывает на несколько трок сценария</a><br>
+	sed -e /^#/d -e '/^$/d' ~/progects/py_prj/pars/klavogonki/main.py<br><br>
+      </div>
+      /^#/d - фильтровать лишнии символы(строки коментария)<br>
+      '/^$/d' - отфильтровывать пустые строки<br><br>
+
+      книга Кернегина и Пайка - Юникс програмное окружение(Юникс универсальная среда программирования.<br>
+      справочные страници инфо по командам<br><br>
+
+      The UNIX CD Bookshelf, version 3 (by O'Reilly) - https://rutracker.org/forum/viewtopic.php?t=185279<br>
+      High Tech - Керниган Б., Пайк Р. - Unix. Программное окружение [2003, PDF, RUS] - https://rutracker.org/forum/viewtopic.php?t=2313507<br>
+      UNIX — универсальная среда программирования - https://rutracker.org/forum/viewtopic.php?t=79980<br>
+
+    </article>
+
+    
+<article class="a">
+    <div class="book_title"><!--<div class="linux" tabindex="8">-->
+        <H2><a href="https://youtu.be/81r8sD6yDJo?list=PLdJo1XilUTZNDMQEOObDI3S4LSpYTVMFQ&t=230">Sed и awk — Виктор Ашик</a></H2>
         <h2>Shell</h2>
         <h2><a href="./linux.html#shell_useg">использованием команд</a></h2>
     <ol>
